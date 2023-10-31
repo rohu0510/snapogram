@@ -260,7 +260,7 @@
   }
 
   .shad-input {
-    @apply h-12 bg-dark-4 border-none placeholder:text-light-4 focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
+    @apply h-12 bg-gray-700 border-none text-white ring-offset-white rounded border-white !important;
   }
 
   .shad-textarea {
@@ -269,7 +269,7 @@
 
   /* Button */
   .shad-button_primary {
-    @apply bg-primary-500 hover:bg-primary-500 text-light-1 flex gap-2 !important;
+    @apply bg-purple-700 rounded hover:bg-blue-500 text-white flex gap-2 !important;
   }
 
   .shad-button_dark_4 {
